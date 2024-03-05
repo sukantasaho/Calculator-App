@@ -12,8 +12,7 @@ public class Test
     {
          Calculator c = new Calculator();
          System.out.println(c.add(100, 200));
-         System.out.println(c.sub(500, 200));
-         System.out.println(c.mul(500, 200));
+          
           
     }
 }
