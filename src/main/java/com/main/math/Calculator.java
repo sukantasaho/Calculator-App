@@ -11,5 +11,12 @@ public class Calculator {
       {
           return a1*a2;
       }
-	 
+        //BUG-101
+        public int sub(int num1 , int num2)
+        {   
+               int f1 = num1;
+               int f2 = num2;
+             //logic is middle
+           return f1-f2;
+        }	 
 }
