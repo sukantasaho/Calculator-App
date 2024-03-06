@@ -18,5 +18,9 @@ public class Calculator {
                int f2 = num2;
              //logic is middle
            return f1-f2;
-        }	 
+        }
+     public void m1()
+     {
+        System.out.println("Hello");
+     }	 
 }
